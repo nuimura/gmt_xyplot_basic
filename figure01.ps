@@ -1,11 +1,11 @@
 %!PS-Adobe-3.0
 %%BoundingBox: 0 0 595 842
-%%HiResBoundingBox: 0 0 595 842
-%%Title: GMT v5.2.1 (r15220) [64-bit] [MP] Document from psxy
+%%HiResBoundingBox: 0 0 595 842             
+%%Title: GMT v5.3.1 (r17229) [64-bit] Document from psxy
 %%Creator: GMT5
 %%For: nuimura
 %%DocumentNeededResources: font Helvetica
-%%CreationDate: Thu Jan 19 12:48:21 2017
+%%CreationDate: Sat Jan 21 12:08:46 2017
 %%LanguageLevel: 2
 %%DocumentData: Clean7Bit
 %%Orientation: Portrait
@@ -272,7 +272,6 @@ end
     PSL_heights psl_k PSL_height put
   } for
 } def
-%%%%%%%%%%%%%%%%%%% CURVED BASELINE TEXT PLACEMENT FUNCTIONS
 /PSL_curved_path_labels
 { /psl_bits exch def
   /PSL_placetext psl_bits 2 and 2 eq def
@@ -523,7 +522,6 @@ end
 {PSL_xp 0 get PSL_yp 0 get M
   1 1 j { /ii exch def PSL_xp ii get PSL_yp ii get L} for
 } def
-%%%%%%%%%%%%%%%%%%% DRAW BASELINE TEXT SEGMENT LINES
 /PSL_draw_path_lines
 {
   /PSL_n_paths1 PSL_n_paths 1 sub def
@@ -549,7 +547,6 @@ end
   } for
   U
 } def
-%%%%%%%%%%%%%%%%%%% STRAIGHT BASELINE TEXT PLACEMENT FUNCTIONS
 /PSL_straight_path_labels
 {
   /psl_bits exch def
@@ -666,8 +663,8 @@ O0
 1200 1200 TM
 
 % PostScript produced by:
-%%GMT: psxy data1.csv -JX10/-10 -R-30/30/500/1000 '-Bx5+lTemperature [C@+\260@+]' '-By50+lPressure [hpa]' -BWSne+t(a) -W1p,black -V -P -K
-%%PROJ: xy -30.00000000 30.00000000 500.00000000 1000.00000000 -30.000 30.000 1000.000 500.000 +xy +a=6378137.000 +b=6356752.314245 +ellps=WGS84 +datum=WGS84 +units=m +no_defs
+%@GMT: psxy data1.csv -JX10/-10 -R-30/30/500/1000 '-Bx5+lTemperature [C@+\260@+]' '-By50+lPressure [hpa]' -BWSne+t(a) -W1p,black,solid -V -P -K
+%@PROJ: xy -30.00000000 30.00000000 500.00000000 1000.00000000 -30.000 30.000 1000.000 500.000 +xy
 %%BeginObject PSL_Layer_1
 0 setlinecap
 0 setlinejoin
@@ -863,13 +860,14 @@ O0
 0 0 TM
 
 % PostScript produced by:
-%%GMT: psxy data2.csv -JX10/-10 -R-30/30/500/1000 -W1p,red -V -P -O
-%%PROJ: xy -30.00000000 30.00000000 500.00000000 1000.00000000 -30.000 30.000 1000.000 500.000 +xy +a=6378137.000 +b=6356752.314245 +ellps=WGS84 +datum=WGS84 +units=m +no_defs
+%@GMT: psxy data2.csv -JX10/-10 -R-30/30/500/1000 -W1p,red,dashed -V -P -O -K
+%@PROJ: xy -30.00000000 30.00000000 500.00000000 1000.00000000 -30.000 30.000 1000.000 500.000 +xy
 %%BeginObject PSL_Layer_2
 0 setlinecap
 0 setlinejoin
 3.32551 setmiterlimit
 17 W
+[133 67] 0 B
 1 0 0 C
 2362 0 M
 0 945 D
@@ -877,6 +875,65 @@ O0
 158 945 D
 -315 945 D
 S
+[] 0 B
+%%EndObject
+0 A
+FQ
+O0
+0 0 TM
+
+% PostScript produced by:
+%@GMT: pslegend -JX10/-10 -R-30/30/500/1000 -V -P -O -F+p1p -Dg5/950
+%@PROJ: xy -30.00000000 30.00000000 500.00000000 1000.00000000 -30.000 30.000 1000.000 500.000 +xy
+%%BeginObject PSL_Layer_3
+0 setlinecap
+0 setlinejoin
+3.32551 setmiterlimit
+2756 472 T
+17 W
+O1
+720 1680 840 360 Sr
+0 A
+FQ
+O0
+0 0 TM
+
+% PostScript produced by:
+%@GMT: psxy -R0/3.93701/0/3.93701 -Jx1i -O -K -N -S @GMTAPI@-000001
+%@PROJ: xy 0.00000000 3.93701000 0.00000000 3.93701000 0.000 3.937 0.000 3.937 +xy
+%%BeginObject PSL_Layer_4
+0 setlinecap
+0 setlinejoin
+3.32551 setmiterlimit
+4 W
+V
+O1
+17 W
+240 427 497 S-
+[133 67] 0 B
+1 0 0 C
+240 427 257 S-
+U
+[] 0 B
+%%EndObject
+0 A
+FQ
+O0
+0 0 TM
+
+% PostScript produced by:
+%@GMT: pstext -R0/3.93701/0/3.93701 -Jx1i -O -K -N -F+f+j @GMTAPI@-000002
+%@PROJ: xy 0.00000000 3.93701000 0.00000000 3.93701000 0.000 3.937 0.000 3.937 +xy
+%%BeginObject PSL_Layer_5
+0 setlinecap
+0 setlinejoin
+3.32551 setmiterlimit
+907 427 M PSL_font_encode 0 get 0 eq {ISOLatin1+_Encoding /Helvetica /Helvetica PSL_reencode PSL_font_encode 0 1 put} if
+200 F0
+(aaa) bl Z
+907 187 M (bbb) bl Z
+%%EndObject
+-2756 -472 T
 %%EndObject
 %%PageTrailer
 U

@@ -1,0 +1,8 @@
+# GMT 5 Session common arguments shelf
+BEGIN GMT 5.3.1
+B	x5+lTemperature [C@+\260@+]y50+lPressure [hpa]WSne+t(a)
+J	X
+JX	X10/-10
+R	-30/30/500/1000
+L	5
+END

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-gmt psxy data1.csv -JX10/-10 -R-30/30/500/1000 -Bx5+l"Temperature [C@+\260@+]" -By50+l"Pressure [hpa]" -BWSne+t"(a)" -W1p,black,solid -V -P -K > figure01.ps
+gmt psxy data1.csv -JX10/-10 -R-30/30/500/1000 -Bx5+l"Temperature [@+\260@+C]" -By50+l"Pressure [hpa]" -BWSne+t"(a)" -W1p,black,solid -V -P -K > figure01.ps
 
 gmt psxy data2.csv -J -R -W1p,red,dashed -V -P -O -K >> figure01.ps
 

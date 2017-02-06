@@ -5,7 +5,7 @@
 %%Creator: GMT5
 %%For: nuimura
 %%DocumentNeededResources: font Helvetica
-%%CreationDate: Sat Jan 21 12:08:46 2017
+%%CreationDate: Mon Feb  6 17:54:37 2017
 %%LanguageLevel: 2
 %%DocumentData: Clean7Bit
 %%Orientation: Portrait
@@ -663,7 +663,7 @@ O0
 1200 1200 TM
 
 % PostScript produced by:
-%@GMT: psxy data1.csv -JX10/-10 -R-30/30/500/1000 '-Bx5+lTemperature [C@+\260@+]' '-By50+lPressure [hpa]' -BWSne+t(a) -W1p,black,solid -V -P -K
+%@GMT: psxy data1.csv -JX10/-10 -R-30/30/500/1000 '-Bx5+lTemperature [@+\260@+C]' '-By50+lPressure [hpa]' -BWSne+t(a) -W1p,black,solid -V -P -K
 %@PROJ: xy -30.00000000 30.00000000 500.00000000 1000.00000000 -30.000 30.000 1000.000 500.000 +xy
 %%BeginObject PSL_Layer_1
 0 setlinecap
@@ -823,10 +823,10 @@ def
 (M) sh def
 /PSL_L_y PSL_A0_y PSL_A1_y mx 133 add PSL_LH add def
 2362 PSL_L_y MM
-V MU 0 0 M (Temperature \[C) FP 0 93 G 187 F0 (\260) FP 0 -93 G 267 F0 (\]) FP pathbbox N pop exch pop add U -2 div 0 G
-(Temperature \[C) Z
+V MU 0 0 M (Temperature \[) FP 0 93 G 187 F0 (\260) FP 0 -93 G 267 F0 (C\]) FP pathbbox N pop exch pop add U -2 div 0 G
+(Temperature \[) Z
 0 93 G 187 F0 (\260) Z
-0 -93 G 267 F0 (\]) Z
+0 -93 G 267 F0 (C\]) Z
 0 4724 T
 25 W
 N 0 0 M 4724 0 D S
